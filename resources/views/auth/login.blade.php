@@ -16,6 +16,7 @@
             <!-- Email -->
             <div>
                 <x-input-label for="email" :value="__('Email')" class="text-[#003366] font-semibold"/>
+                
                 <x-text-input 
                     id="email"
                     class="block mt-1 w-full border-gray-300 focus:border-[#4FA3FF] focus:ring-[#4FA3FF]"
